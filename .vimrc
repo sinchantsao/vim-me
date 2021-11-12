@@ -54,3 +54,7 @@ endif
 set ai
 set si
 set wrap
+
+
+" 添加退出形式,有些终端采用web终端，不允许本地ssh，非常毒瘤，导致有时候esc用不了，给esc做个映射
+inoremap jj <esc>
